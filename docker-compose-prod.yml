@@ -2,7 +2,7 @@
 version: '3.0'
 services:
   web:
-    # TODO: image, ports and redis dependency
+    image: albertrk/io-lab-docker:latest
     ports:
       -5000:5000
     depends_on:
